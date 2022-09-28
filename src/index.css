@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -11,28 +11,100 @@
     text-decoration: none;
 }
 
-:root{
-    --color-bg:#023047;
-    --color-varients:#219ebc;
+:root {
+    --color-bg: #212529;
+    --color-varients: #219ebc;
     --color-primary: #8ecae6;
     --color-white: #fff;
+    --color-light: #eff7f6;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+    --transition: all 400ms ease;
 
 }
+
 html {
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     display: none;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/Assets/bg-texture.png);
+}
+
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+section>h2,
+section>h5 {
+    text-align: center;
+    color: var(--color-varients);
+}
+
+section>h2 {
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+}
+
+.text-light {
+    color: var(--color-light);
+}
+
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+.btn {
+    width: max-content;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primarry {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
 }
