@@ -108,3 +108,32 @@ a:hover {
     background-color: var(--color-primary);
     color: var(--color-bg);
 }
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*===========MEDIA QUERIES=====*/
+
+
+@media screen and (max-width: 1024px){
+   .container{
+    width: var(--container-width-md);
+   }
+
+   section{
+margin-top: 6rem;
+   }
+}
+
+@media screen and (max-width: 600px){
+    .container{
+     width: var(--container-width-sm);
+    }
+ 
+    section{
+ margin-bottom: 6rem;
+    }
+ }
