@@ -12,7 +12,7 @@
 }
 
 :root {
-    --color-bg: #212529;
+    --color-bg: #22223b;
     --color-varients: #219ebc;
     --color-primary: #8ecae6;
     --color-white: #fff;
@@ -104,9 +104,16 @@ a:hover {
     border-color: transparent;
 }
 
-.btn-primarry {
+.btn-primary {
     background-color: var(--color-primary);
     color: var(--color-bg);
+    width: max-content;
+    padding: 0.75rem 1.2rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
 }
 
 img{
