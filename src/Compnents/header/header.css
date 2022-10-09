@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 6rem;
+    padding-top: 3 rem;
     overflow: hidden;
 }
 
@@ -11,20 +11,20 @@ header {
 }
 
 .me img {
-    width: 35rem;
+    width: 25rem;
 
     margin: 0 auto;
-    border-radius: 12rem 12rem;
+    border-radius: 15rem 15rem;
 
 }
 
 .me {
-    width: 36rem;
+    width: 30rem;
 
     position: absolute;
-    left: calc(50% - 18rem);
+    left: calc(50% - 15rem);
     background: var(--color-primary);
-    border-radius: 12rem 12rem;
+    border-radius: 15rem 15rem;
     overflow: hidden;
     margin-top: 3rem;
 }
@@ -48,5 +48,42 @@ header {
 }
 
 .scroll-down {
-    position: relative;
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+
+
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid var(--color-primary);
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    transform: translateY(-50%);
+}
+
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 10em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: var(--color-primary);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
