@@ -116,7 +116,7 @@ a:hover {
     transition: var(--transition);
 }
 
-img{
+img {
     display: block;
     width: 100%;
     object-fit: cover;
@@ -125,22 +125,22 @@ img{
 /*===========MEDIA QUERIES=====*/
 
 
-@media screen and (max-width: 1024px){
-   .container{
-    width: var(--container-width-md);
-   }
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
 
-   section{
-margin-top: 6rem;
-   }
+    section {
+        margin-top: 6rem;
+    }
 }
 
-@media screen and (max-width: 600px){
-    .container{
-     width: var(--container-width-sm);
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
     }
- 
-    section{
- margin-bottom: 6rem;
+
+    section {
+        margin-bottom: 6rem;
     }
- }
+}
