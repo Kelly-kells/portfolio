@@ -1,3 +1,39 @@
+header{
+    height: 100vh;
+    padding-top: 6rem;
+    overflow: hidden;
+}
+.header__container{
+    text-align: center;
+    height:100%;
+    position: relative;
+}
+
 .me img{
-    width: 20rem;
+    width: 35rem;
+    margin-top: 5rem;
+    margin: 0 auto;
+    border-radius: 15px;
+    
+}
+
+.me {
+    background: var(--color-primary);
+}
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
 }
