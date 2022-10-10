@@ -2,6 +2,7 @@ header {
     height: 100vh;
     padding-top: 3 rem;
     overflow: hidden;
+    margin-top: 3rem;
 }
 
 .header__container {
@@ -54,36 +55,30 @@ header {
     transform: rotate(90deg);
 
 
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid var(--color-primary);
-    /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
-    transform: translateY(-50%);
+    
 }
 
-.anim-typewriter {
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-        blinkTextCursor 500ms steps(44) infinite normal;
-}
 
-@keyframes typewriter {
-    from {
-        width: 0;
-    }
 
-    to {
-        width: 10em;
+
+
+/*===========MEDIA QUERIES==========*/
+
+@media screen and (max-width: 1024px){
+    header {
+        height: 68vh;
+
     }
 }
 
-@keyframes blinkTextCursor {
-    from {
-        border-right-color: var(--color-primary);
+@media screen and (max-width: 600px){
+    
+    header {
+        height: 100vh;
+
     }
 
-    to {
-        border-right-color: transparent;
+    .header__socials,.scroll-down{
+        display: none;
     }
 }

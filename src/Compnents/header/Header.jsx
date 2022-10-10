@@ -7,7 +7,7 @@ import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
+      <div className="container header__container animate__animated animate__backInDown">
         <h5>
           Hello! I'm
         </h5>
@@ -19,7 +19,7 @@ const Header = () => {
           <img src={me} alt="me" />
         </div>
 
-        <a href="#contact" className='scroll-down anim-typewriter'>scroll down</a>
+        <a href="#contact" className='scroll-down '>scroll down</a>
       </div>
     </header>
   )
