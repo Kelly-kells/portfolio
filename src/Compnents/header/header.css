@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 3 rem;
+    padding-top: 1rem;
     overflow: hidden;
     margin-top: 3rem;
 }
@@ -40,12 +40,10 @@ header {
 
 .header__socials {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
 }
 
 .scroll-down {
@@ -55,7 +53,7 @@ header {
     transform: rotate(90deg);
 
 
-    
+
 }
 
 
@@ -64,21 +62,22 @@ header {
 
 /*===========MEDIA QUERIES==========*/
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     header {
         height: 68vh;
 
     }
 }
 
-@media screen and (max-width: 600px){
-    
+@media screen and (max-width: 600px) {
+
     header {
         height: 100vh;
 
     }
 
-    .header__socials,.scroll-down{
+
+    .scroll-down {
         display: none;
     }
 }
