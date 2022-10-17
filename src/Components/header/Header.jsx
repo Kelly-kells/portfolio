@@ -4,6 +4,7 @@ import me from '../../Assets/me-img.JPG'
 import style from './header.css'
 import HeaderSocials from './HeaderSocials'
 
+
 const Header = () => {
   return (
     <header>
@@ -15,6 +16,7 @@ const Header = () => {
         <h5 className="text-light">A frontend developer</h5>
         <HeaderSocials />
         <CTA />
+        
         
         <div className="me">
           <img src={me} alt="me" />
