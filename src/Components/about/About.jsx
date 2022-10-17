@@ -2,6 +2,8 @@ import React from 'react'
 import "./about.css"
 import techgirl from "../../Assets/techgirl.png"
 import { FaAward } from "react-icons/fa"
+import { FiUsers } from "react-icons/fi"
+import {AiOutlineFolderOpen} from 'react-icons/ai'
 
 const About = () => {
   return (
@@ -29,17 +31,17 @@ const About = () => {
             </article>
 
             <article className='about__card'>
-              <FaAward />
-              <h5>Experience</h5>
+              <FiUsers />
+              <h5>Clients</h5>
               <small>
-                1+ years experience experience
+                freelance/personal projects
               </small>
 
             </article>
 
             <article className='about__card'>
-              <FaAward />
-              <h5>Experience</h5>
+              <AiOutlineFolderOpen />
+              <h5>Projects</h5>
               <small>
                 1+ years experience experience
               </small>

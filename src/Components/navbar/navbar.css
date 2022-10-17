@@ -1,60 +1,63 @@
-nav{
-    background: rgba(0,0,0,0.3);
+nav {
+    background: rgba(0, 0, 0, 0.3);
     width: max-content;
     left: 40%;
     z-index: 2;
     display: block;
     bottom: 2rem;
     padding: 0.7rem 1.5rem;
-   margin: 0 auto;
- backdrop-filter: blur(20px);
-   position: fixed;
-   gap: 0.8rem;
-   border-radius: 2.5rem;
-   margin-top: 1.5rem; 
-   
+    margin: 0 auto;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    gap: 0.8rem;
+    border-radius: 2.5rem;
+    margin-top: 1.5rem;
+
 }
-nav a{
+
+nav a {
     background: transparent;
     padding: 0.9rem;
-    
+
     color: var(--color-light);
     font-size: 1.1rem;
 
 }
 
-nav a:hover{
-    background: rgba(0,0,0,0.4);
+nav a:hover {
+    background: rgba(0, 0, 0, 0.4);
     border-radius: 50%;
 }
-nav a.active{
+
+nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
 }
 
 @media screen and (max-width: 1024px) {
-    nav a  {
-       
+    nav a {
+
         padding: 0.9rem;
     }
 
-    nav{
+    nav {
         left: 30%;
         margin: 0 auto;
     }
-    
+
 }
 
 @media screen and (max-width: 600px) {
 
-    nav a{
-       
+    nav a {
+
         padding: 0.6rem;
     }
-    nav{
+
+    nav {
         left: 13%;
-        
-        
+
+
     }
-    
+
 }
