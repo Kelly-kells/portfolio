@@ -9,18 +9,18 @@ import { useState } from 'react'
 
 const Navbar = () => {
 
-
+const[activeNav, setActiveNav]= useState ('#');
   return (
     <nav>
-      <a href="#"> <BiHome size={20} /></a>
+      <a href="#" onClick={() =>setActiveNav ('#')}className={activeNav ==='#' ? 'active' : ''}> <BiHome size={20} /></a>
 
-      <a href="#about"> <AiOutlineUser size={20} /></a>
+      <a href="#about" onClick={() =>setActiveNav ('#about')} className={activeNav ==='#about' ? 'active' : ''}  > <AiOutlineUser size={20} /></a>
 
-      <a href="#experience"> <BsBookmarkStar size={20} /></a>
+      <a href="#experience" onClick={() =>setActiveNav ('#experience')} className={activeNav ==='#experience' ? 'active' : ''} > <BsBookmarkStar size={20} /></a>
 
-      <a href="#portfolio"> <RiServiceLine size={20} /></a>
+      <a href="#portfolio" onClick={() =>setActiveNav ('#portfolio')} className={activeNav ==='#portfolio' ? 'active' : ''} > <RiServiceLine size={20} /></a>
 
-      <a href="#contact"> <MdContactPage size={20} /></a>
+      <a href="#contact" onClick={() =>setActiveNav ('#contact')} className={activeNav ==='#contact' ? 'active' : ''} > <MdContactPage size={20} /></a>
     </nav>
   )
 }
