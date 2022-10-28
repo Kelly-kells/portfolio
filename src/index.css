@@ -13,7 +13,7 @@
 
 :root {
     --color-bg: #22223b;
-    --color-varients: #219ebc;
+    --color-varients: #4361ee;
     --color-primary: #8ecae6;
     --color-white: #fff;
     --color-light: #eff7f6;
@@ -60,7 +60,7 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
+    margin-top: 4rem;
     height: 100vh;
 }
 
