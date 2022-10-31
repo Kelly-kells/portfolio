@@ -17,11 +17,9 @@
    
     gap: 1.5rem;
 }
-.about__cards a, p{
-    padding: 2rem;
-    margin-left: 1rem;
-    
-}
+
+
+
 .about__card{
     background: var(--color-varients);
     border: 1px solid transparent;
@@ -29,8 +27,45 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transiton);
+    width: 20rem;
 }
+
+.about__card h5{
+    font-size: 1.2rem;
+}
+.about__card small{
+    font-size: 0.95;
+    color: var(--color-light);
+}
+
 .about__card:hover{
     background: transparent;
     border-color: var(--color-varients);
+}
+.about__content p{
+margin: 2rem 0 2rem;
+color: grey;
+font-size: 1.1rem;
+}
+
+/*===========MEDIA QUERIES==========*/
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        height: 100vh;
+
+    }
+
+
+    .scroll-down {
+        display: none;
+    }
 }
