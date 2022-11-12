@@ -22,27 +22,42 @@ const experience = () => {
 
               <article className='details'>
              <AiFillCheckCircle color="blue" size="25px"/>
-             <h4>HTML</h4>
+             <h4>CSS</h4>
+             <small className='text-light'>Intermediate</small>
+              </article>
+
+              <article className='details'>
+             <AiFillCheckCircle color="blue" size="25px"/>
+             <h4>Javascript</h4>
+             <small className='text-light'>intermediate</small>
+              </article>
+
+              <article className='details'>
+             <AiFillCheckCircle color="blue" size="25px"/>
+             <h4>React.Js</h4>
              <small className='text-light'>Experienced</small>
               </article>
 
               <article className='details'>
              <AiFillCheckCircle color="blue" size="25px"/>
-             <h4>HTML</h4>
+             <h4>Redux</h4>
              <small className='text-light'>Experienced</small>
               </article>
 
               <article className='details'>
              <AiFillCheckCircle color="blue" size="25px"/>
-             <h4>HTML</h4>
+             <h4>Boostrap</h4>
              <small className='text-light'>Experienced</small>
               </article>
+
+              <article className='details'>
+             <AiFillCheckCircle color="blue" size="25px"/>
+             <h4>Tailwind</h4>
+             <small className='text-light'>Experienced</small>
+              </article>
+
               
-              <article className='details'>
-             <AiFillCheckCircle color="blue" size="25px"/>
-             <h4>HTML</h4>
-             <small className='text-light'>Experienced</small>
-              </article>
+
             </div>
           </div>
           <div className="experience__backend">
