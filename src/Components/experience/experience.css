@@ -1,74 +1,65 @@
-.experience__container{
+.experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    
+
 }
 
-.experience__container > div{
-   background: transparent;
+.experience__container>div {
+    background: transparent;
     padding: 2rem 2rem;
     border-radius: 2rem;
     border: 1px solid var(--color-varients);
     transition: var(--transition);
 }
 
-.experience__container > div:hover{
+.experience__container>div:hover {
     background: var(--color-varients);
     border-color: var(--color-varients)
 }
 
-.experience__container > div h3{
-text-align: center;
-margin-bottom: 2rem;
-color: var(--color-primary);
+.experience__container>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
 }
 
-.experience__content{
+.experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 1rem;
 }
-.details{
+
+.details {
     display: flex;
     gap: 1rem;
 }
 
-section h5{
+section h5 {
     font-size: 1.5rem;
-    color:var(--color-primary);
+    color: var(--color-primary);
 }
 
 /*===========MEDIA QUERIES==========*/
 
 @media screen and (max-width: 1024px) {
-    .about__me{
-      width: 50%;
-      margin: 2rem auto 3rem;
+
+    .experience__container {
+        grid-template-columns: 1fr;
+
     }
-}
-.about__content p{
-    margin: 1rem 0 1.5rem;
+
+    .experience__container>div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
 
-    .about__me {
-      width: 65%;
-      margin: 0 auto 3rem;
-
-    }
-
-
-    .about__cards{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap:1rem;
-    }
-    .about__content{
-        text-align: center;
-    }
-    .about__content p{
-        margin: 1.5rem 0;
+    .experience__container {
+        gap: 1rem;
     }
 }

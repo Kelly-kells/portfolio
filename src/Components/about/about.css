@@ -1,26 +1,24 @@
-
-
 .about__me {
     width: 100%;
-    
+
     background: linear-gradient(45deg, transparent,
-     var (--color-primary));
-     
-     
-     
+            var (--color-primary));
+
+
+
 }
 
 
-.about__cards{
+.about__cards {
     display: flex;
     justify-content: center;
-   
+
     gap: 1.5rem;
 }
 
 
 
-.about__card{
+.about__card {
     background: var(--color-varients);
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -30,54 +28,61 @@
     width: 20rem;
 }
 
-.about__card h5{
+.about__card h5 {
     font-size: 1.2rem;
 }
-.about__card small{
+
+.about__card small {
     font-size: 0.95;
     color: var(--color-light);
 }
 
-.about__card:hover{
+.about__card:hover {
     background: transparent;
     border-color: var(--color-varients);
 }
-.about__content p{
-margin: 2rem 0 2rem;
-color: grey;
-font-size: 1.1rem;
+
+.about__content p {
+    margin: 2rem 0 2rem;
+    color: grey;
+    font-size: 1.1rem;
 }
 
 /*===========MEDIA QUERIES==========*/
 
 @media screen and (max-width: 1024px) {
-    .about__me{
-      width: 50%;
-      margin: 2rem auto 3rem;
+    .about__me {
+        width: 50%;
+        margin: 2rem auto 3rem;
+    }
+
+    .about__content p {
+        margin: 1rem 0 1.5rem;
     }
 }
-.about__content p{
-    margin: 1rem 0 1.5rem;
-}
+
 
 @media screen and (max-width: 600px) {
 
     .about__me {
-      width: 65%;
-      margin: 0 auto 3rem;
+        width: 65%;
+        margin: 0 auto 3rem;
 
     }
 
 
-    .about__cards{
+    .about__cards {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap:1rem;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        gap: 1rem;
     }
-    .about__content{
+
+    .about__content {
         text-align: center;
     }
-    .about__content p{
+
+    .about__content p {
         margin: 1.5rem 0;
     }
 }
