@@ -42,6 +42,80 @@ const Services = () => {
           </ul>
 
         </article>
+
+
+        <article className='service'>
+          <div className="service-head">
+            <h3>Web development</h3>
+          </div>
+          <ul className='service-list'>
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+          </ul>
+
+        </article>
+
+
+        <article className='service'>
+          <div className="service-head">
+            <h3>UI Design</h3>
+          </div>
+          <ul className='service-list'>
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li>
+              <BiCheck />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+          </ul>
+
+        </article>
       </div>
 
 
