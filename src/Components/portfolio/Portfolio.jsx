@@ -18,7 +18,7 @@ const Portfolio = () => {
           <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
-          
+
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
         </article>
 
@@ -31,7 +31,7 @@ const Portfolio = () => {
           <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
-          
+
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
         </article>
 
@@ -43,7 +43,7 @@ const Portfolio = () => {
           <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
-          
+
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
         </article>
 
@@ -55,7 +55,7 @@ const Portfolio = () => {
           <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
-          
+
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
         </article>
 
@@ -67,7 +67,7 @@ const Portfolio = () => {
           <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
-          
+
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
         </article>
 
@@ -79,7 +79,7 @@ const Portfolio = () => {
           <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
-          
+
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
         </article>
       </div>
