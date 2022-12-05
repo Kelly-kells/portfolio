@@ -1,4 +1,6 @@
 import React from 'react'
+import ai from "../../Assets/project-ai.jpg"
+import styles from "./portfolio.css"
 
 const Portfolio = () => {
   return (
@@ -10,9 +12,75 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
+            <img src={ai} alt="" />
           </div>
-          <h3>Project_ai</h3>
-          <a href=""></a>git
+          <h3>Project_Ai</h3>
+          <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
+            Github
+          </a>
+          
+          <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+        </article>
+
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={ai} alt="" />
+          </div>
+          <h3>Project_Ai</h3>
+          <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
+            Github
+          </a>
+          
+          <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={ai} alt="" />
+          </div>
+          <h3>Project_Ai</h3>
+          <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
+            Github
+          </a>
+          
+          <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={ai} alt="" />
+          </div>
+          <h3>Project_Ai</h3>
+          <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
+            Github
+          </a>
+          
+          <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={ai} alt="" />
+          </div>
+          <h3>Project_Ai</h3>
+          <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
+            Github
+          </a>
+          
+          <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={ai} alt="" />
+          </div>
+          <h3>Project_Ai</h3>
+          <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
+            Github
+          </a>
+          
+          <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
         </article>
       </div>
     </section>
