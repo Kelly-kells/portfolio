@@ -15,73 +15,83 @@ const Portfolio = () => {
             <img src={ai} alt="" />
           </div>
           <h3>Project_Ai</h3>
+          <div className="portfolio__item-cta">
           <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
+          <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+          </div>
 
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
         </article>
 
 
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
+          <div className="portfolio__item-image"> 
             <img src={ai} alt="" />
           </div>
           <h3>Project_Ai</h3>
-          <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
+         <div className="portfolio__item-cta">
+         <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
-
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+         </div>
         </article>
 
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
+          <div className="portfolio__item-image"> 
             <img src={ai} alt="" />
           </div>
           <h3>Project_Ai</h3>
-          <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
+         <div className="portfolio__item-cta">
+         <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
-
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+         </div>
         </article>
 
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
+          <div className="portfolio__item-image"> 
             <img src={ai} alt="" />
           </div>
           <h3>Project_Ai</h3>
-          <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
+         <div className="portfolio__item-cta">
+         <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
-
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+         </div>
         </article>
 
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
+          <div className="portfolio__item-image"> 
             <img src={ai} alt="" />
           </div>
           <h3>Project_Ai</h3>
-          <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
+         <div className="portfolio__item-cta">
+         <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
-
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+         </div>
         </article>
 
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
+          <div className="portfolio__item-image"> 
             <img src={ai} alt="" />
           </div>
           <h3>Project_Ai</h3>
-          <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
+         <div className="portfolio__item-cta">
+         <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
             Github
           </a>
-
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+         </div>
         </article>
+
+        
       </div>
     </section>
   )

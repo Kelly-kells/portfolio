@@ -7,7 +7,7 @@
 .portfolio__item {
     background: #1d3557;
     padding: 1.3rem;
-    border-radius: 3rem;
+    border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -44,4 +44,13 @@
     75% {
         transform: translateX(-6px) rotate(-1.2deg);
     }
+}
+
+.portfolio__item-image{
+    border-radius: 0.5rem;
+      overflow: hidden;
+
+}
+.portfolio__item h3{
+    margin: 1.2rem 0 2rem;
 }
