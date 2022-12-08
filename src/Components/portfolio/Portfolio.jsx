@@ -2,7 +2,49 @@ import React from 'react'
 import ai from "../../Assets/project-ai.jpg"
 import styles from "./portfolio.css"
 
+
+
+const data=[
+  {id,
+  img:ai,
+  github: "https://github.com/Kelly-kells/Ai-project",
+  demo: "https://project-ai.netlify.app"
+  },
+
+  {id,
+    img:ai,
+    github: "https://github.com/Kelly-kells/Ai-project",
+    demo: "https://project-ai.netlify.app"
+    },
+
+    {id,
+      img:ai,
+      github: "https://github.com/Kelly-kells/Ai-project",
+      demo: "https://project-ai.netlify.app"
+      },
+
+      {id,
+        img:ai,
+        github: "https://github.com/Kelly-kells/Ai-project",
+        demo: "https://project-ai.netlify.app"
+        },
+
+        {id,
+          img:ai,
+          github: "https://github.com/Kelly-kells/Ai-project",
+          demo: "https://project-ai.netlify.app"
+          },
+
+          {id,
+            img:ai,
+            github: "https://github.com/Kelly-kells/Ai-project",
+            demo: "https://project-ai.netlify.app"
+            },
+]
+
 const Portfolio = () => {
+
+
   return (
     <section id='portfolio'>
 
@@ -22,7 +64,7 @@ const Portfolio = () => {
           <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
           </div>
 
-          <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
+          
         </article>
 
 
