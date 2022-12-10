@@ -28,22 +28,23 @@ const experience = () => {
               <AiFillCheckCircle color="#8ecae6" size="25px" />
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
 
-            <article className='details'>
-              <AiFillCheckCircle color="#8ecae6" size="25px" />
-              <div>
-                <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
 
             <article className='details'>
               <AiFillCheckCircle color="#8ecae6" size="25px" />
               <div>
                 <h4>React.Js</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='details'>
+              <AiFillCheckCircle color="#8ecae6" size="25px" />
+              <div>
+                <h4>React router</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>

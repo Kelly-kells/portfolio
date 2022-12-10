@@ -2,7 +2,7 @@ import React from 'react'
 import ai from "../../Assets/project-ai.jpg"
 import fit from "../../Assets/march-fitness.jpg"
 import film from "../../Assets/filmore.jpg"
-import pot from  "../../Assets/afri-pot.jpg"
+import pot from "../../Assets/afri-pot.jpg"
 import creatures from "../../Assets/creatures.jpg"
 import styles from "./portfolio.css"
 
@@ -49,7 +49,7 @@ const data = [
     demo: "https://test-creatures.netlify.app"
   },
 
-  
+
 ]
 
 const Portfolio = () => {
@@ -62,75 +62,28 @@ const Portfolio = () => {
       <h2>portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={ai} alt="" />
-          </div>
-          <h3>Project_Ai</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
-              Github
-            </a>
-            <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
-          </div>
+       {
+        data.map(({id,img,title,github,demo})=>{
+          return(
+            <article key={id} className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={img} alt={title} />
+            </div>
+            <h3>{title}</h3>
+            <div className="portfolio__item-cta">
+              <a href={github} className='btn'>
+                Github
+              </a>
+              <a href={demo} className='btn-primary' target='_blank'>Live Demo</a>
+            </div>
+  
+  
+          </article>
+          )
+        })
+       }
 
 
-        </article>
-
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={ai} alt="" />
-          </div>
-          <h3>Project_Ai</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
-              Github
-            </a>
-            <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={ai} alt="" />
-          </div>
-          <h3>Project_Ai</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
-              Github
-            </a>
-            <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={ai} alt="" />
-          </div>
-          <h3>Project_Ai</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
-              Github
-            </a>
-            <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={ai} alt="" />
-          </div>
-          <h3>Project_Ai</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/Kelly-kells/Ai-project" className='btn'>
-              Github
-            </a>
-            <a href="https://project-ai.netlify.app" className='btn-primary'>Live Demo</a>
-          </div>
-        </article>
-
-        
 
 
       </div>
