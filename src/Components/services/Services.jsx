@@ -83,25 +83,23 @@ const Services = () => {
 
             <li>
               <BiCheck />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Detecting browsing device's dimentions and creating <br/>appropriate designs using MediA Queries and breakpoints </p>
             </li>
+
+       
+              
 
             <li>
               <BiCheck />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-
-            <li>
-              <BiCheck />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Ensuring content consistency across all devices</p>
             </li>
             <li>
               <BiCheck />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Using grid systems to aid user interactions</p>
             </li>
             <li>
               <BiCheck />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Facilitating userbility and navigation</p>
             </li>
           </ul>
 
