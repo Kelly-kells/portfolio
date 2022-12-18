@@ -14,7 +14,7 @@ const About = () => {
       
       <div className="container container__about">
         <div className="about__me">
-        </div>
+        
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
@@ -49,6 +49,7 @@ const About = () => {
           <a href="#contact" className='btn btn-primary'> Contact me</a>
           </div>
           
+        </div>
         </div>
       </div>
     </section>

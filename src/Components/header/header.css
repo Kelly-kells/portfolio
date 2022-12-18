@@ -7,8 +7,10 @@ header {
 
 .header__container {
     text-align: center;
-    height: 100%;
+   height: 100%;
     position: relative;
+    padding-top: 3rem;
+   
 }
 
 .me img {
@@ -62,6 +64,8 @@ header {
 
 /*===========MEDIA QUERIES==========*/
 
+
+
 @media screen and (max-width: 1024px) {
     header {
         height: 68vh;
@@ -72,7 +76,7 @@ header {
 @media screen and (max-width: 600px) {
 
     header {
-        height: 100vh;
+        height: 80vh;
 
     }
 

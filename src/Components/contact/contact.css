@@ -1,4 +1,6 @@
-
+#about{
+    margin-top: 0;
+}
 .container.contact__container{
     width: 80%;
     display: grid;
@@ -37,7 +39,10 @@
     display: inline-block;
     font-size: 1rem;
 }
-
+.contacts h5{
+    font-size: 1.1rem;
+   }
+    
 
 /*==========Form======*/
 
@@ -59,24 +64,26 @@ input, textarea{
 }
 
 
-@media screen and (max-width: 1024px) {
-    .container {
-        width: var(--container-width-md);
-    }
+/*=====MEDIA QUERIES======*/
 
-    section {
-        margin-top: 6rem;
-    }
+@media screen and (max-width: 1024px) {
+   .container.contact__container{
+    
+    grid-template-columns: 1fr;
+    gap: 2rem;
+   }
 }
 
 @media screen and (max-width: 600px) {
-    .container {
-        width: var(--container-width-sm);
-    }
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        width: var( --container-width-sm);
+        
+       }
 
-    section {
-        margin-bottom: 6rem;
-        align-items: center;
+       .contacts h5{
+        font-size: 1rem;
+       }
         
     }
-}
